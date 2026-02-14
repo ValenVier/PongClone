@@ -77,9 +77,9 @@ extern "C" {
 	EXPORT float Vector2Distance(Vec2 a, Vec2 b);
 	EXPORT float Vector2DistanceSquared(Vec2 a, Vec2 b);
 
-	// Dot and Cross (2D cross returns scalar)
+	// Dot and Cross
 	EXPORT float Vector2Dot(Vec2 a, Vec2 b);
-	EXPORT float Vector2Cross(Vec2 a, Vec2 b);
+	EXPORT float Vector2Cross(Vec2 a, Vec2 b); //in 2D, rreturns an scalar, is not a vector
 
 	// Normalization
 	EXPORT Vec2 Vector2Normalize(Vec2 v);

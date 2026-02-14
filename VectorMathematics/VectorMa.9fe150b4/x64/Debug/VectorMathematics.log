@@ -1,0 +1,7 @@
+﻿  pch.cpp
+  dllmain.cpp
+  VectorMath.cpp
+  Generating Code...
+  LINK : C:\Users\elror\ForsbergsSkola\Unity\PongClone\VectorMathematics\x64\Debug\VectorMathematics.dll not found or not built by the last incremental link; performing full link
+     Creating library C:\Users\elror\ForsbergsSkola\Unity\PongClone\VectorMathematics\x64\Debug\VectorMathematics.lib and object C:\Users\elror\ForsbergsSkola\Unity\PongClone\VectorMathematics\x64\Debug\VectorMathematics.exp
+  VectorMathematics.vcxproj -> C:\Users\elror\ForsbergsSkola\Unity\PongClone\VectorMathematics\x64\Debug\VectorMathematics.dll
