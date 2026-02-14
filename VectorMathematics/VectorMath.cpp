@@ -197,6 +197,9 @@ extern "C"
 	EXPORT Vec3 Vector3Up() { return { 0.0f, 1.0f, 0.0f }; }
 	EXPORT Vec3 Vector3Forward() { return { 0.0f, 0.0f, 1.0f }; }
 
+
+
+
 	// VECTOR 2D
 	EXPORT Vec2 Vector2Add(Vec2 a, Vec2 b)
 	{

@@ -29,13 +29,19 @@ void PrintBool(const char* label, bool v)
 {
     std::cout << label << ": " << (v ? "true" : "false") << "\n";
 }
+void PrintVec2(const char* label, Vec2 v)
+{
+    std::cout << label << ": (" << v.x << ", " << v.y << ")\n";
+}
 
 // We need to declare the function before using it
 void TestVector3();
+void TestVector2();
 
 int main()
 {
     TestVector3();
+    TestVector2();
 
     ///
     std::cout << "ALL TESTS PASSED: OK\n";
@@ -148,6 +154,112 @@ void TestVector3() {
 
     /*std::cout << added.x << ", " << added.y << ", " << added.z;
     std::cin.get();*/
+}
+
+void TestVector2()
+{
+    std::cout << "\n---- Vector2 Tests ----\n\n";
+
+    Vec2 added = Vector2Add({ 1,2 }, { 4,5 });
+    assert(added.x == 5 && added.y == 7);
+    PrintVec2("Add", added);
+
+    Vec2 sub = Vector2Subtraction({ 5,5 }, { 2,3 });
+    assert(sub.x == 3 && sub.y == 2);
+    PrintVec2("Sub", sub);
+
+    Vec2 scale = Vector2Scale({ 1,2 }, 2.0f);
+    assert(scale.x == 2 && scale.y == 4);
+    PrintVec2("Scale", scale);
+
+    Vec2 div = Vector2Divide({ 2,4 }, 2.0f);
+    assert(div.x == 1 && div.y == 2);
+    PrintVec2("Divide", div);
+
+    float mag = Vector2Magnitude({ 3,4 });
+    assert(FloatEquals(mag, 5.0f));
+    PrintFloat("Magnitude", mag);
+
+    float magSq = Vector2MagnitudeSquared({ 3,4 });
+    assert(FloatEquals(magSq, 25.0f));
+    PrintFloat("MagnitudeSquared", magSq);
+
+    float dist = Vector2Distance({ 0,0 }, { 3,4 });
+    assert(FloatEquals(dist, 5.0f));
+    PrintFloat("Distance", dist);
+
+    float distSq = Vector2DistanceSquared({ 0,0 }, { 3,4 });
+    assert(FloatEquals(distSq, 25.0f));
+    PrintFloat("DistanceSquared", distSq);
+
+    float dot = Vector2Dot({ 1,0 }, { 0,1 });
+    assert(FloatEquals(dot, 0.0f));
+    PrintFloat("Dot", dot);
+
+    float cross = Vector2Cross({ 1,0 }, { 0,1 });
+    assert(FloatEquals(cross, 1.0f));
+    PrintFloat("Cross (scalar)", cross);
+
+    Vec2 norm = Vector2Normalize({ 10,0 });
+    assert(FloatEquals(norm.x, 1.0f));
+    assert(FloatEquals(norm.y, 0.0f));
+    PrintVec2("Normalize", norm);
+
+    bool isZero = Vector2IsZero({ 0.0000001f, 0 }, EPSILON);
+    assert(isZero);
+    PrintBool("IsZero", isZero);
+
+    Vec2 lerp = Vector2Lerp({ 0,0 }, { 10,0 }, 0.5f);
+    assert(FloatEquals(lerp.x, 5.0f));
+    assert(FloatEquals(lerp.y, 0.0f));
+    PrintVec2("Lerp", lerp);
+
+    Vec2 slerp = Vector2Slerp({ 1,0 }, { 0,1 }, 0.5f);
+    assert(FloatEquals(Vector2Magnitude(slerp), 1.0f));
+    PrintVec2("Slerp", slerp);
+
+    float angle = Vector2Angle({ 1,0 }, { 0,1 });
+    assert(FloatEquals(angle, 3.14159265f / 2.0f));
+    PrintFloat("Angle (rad)", angle);
+
+    float scalarProj = Vector2ScalarProjection({ 2,0 }, { 1,0 });
+    assert(FloatEquals(scalarProj, 2.0f));
+    PrintFloat("ScalarProjection", scalarProj);
+
+    Vec2 vectorProj = Vector2VectorProjection({ 2,2 }, { 1,0 });
+    assert(FloatEquals(vectorProj.x, 2.0f));
+    assert(FloatEquals(vectorProj.y, 0.0f));
+    PrintVec2("VectorProjection", vectorProj);
+
+    Vec2 reflect = Vector2Reflect({ 1,-1 }, { 0,1 });
+    assert(FloatEquals(reflect.x, 1.0f));
+    assert(FloatEquals(reflect.y, 1.0f));
+    PrintVec2("Reflect", reflect);
+
+    Vec2 clamp = Vector2ClampMagnitude({ 10,0 }, 5.0f);
+    assert(FloatEquals(Vector2Magnitude(clamp), 5.0f));
+    PrintVec2("ClampMagnitude", clamp);
+
+    Vec2 dir = Vector2DirectionTo({ 0,0 }, { 10,0 }, EPSILON);
+    assert(FloatEquals(dir.x, 1.0f));
+    assert(FloatEquals(dir.y, 0.0f));
+    PrintVec2("DirectionTo", dir);
+
+    Vec2 move = Vector2MoveTowards({ 0,0 }, { 10,0 }, 3.0f);
+    assert(FloatEquals(move.x, 3.0f));
+    assert(FloatEquals(move.y, 0.0f));
+    PrintVec2("MoveTowards", move);
+
+    bool approx = Vector2Approximately({ 1,1 }, { 1.0000001f,1 }, EPSILON);
+    assert(approx);
+    PrintBool("Approximately", approx);
+
+    PrintVec2("Zero", Vector2Zero());
+    PrintVec2("One", Vector2One());
+    PrintVec2("Right", Vector2Right());
+    PrintVec2("Up", Vector2Up());
+
+    std::cout << "\n---------------------\n\n";
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
