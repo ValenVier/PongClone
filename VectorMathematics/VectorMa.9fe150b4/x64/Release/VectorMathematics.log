@@ -1,0 +1,10 @@
+﻿  pch.cpp
+  dllmain.cpp
+  VectorMath.cpp
+     Creating library C:\Users\elror\ForsbergsSkola\Unity\PongClone\VectorMathematics\x64\Release\VectorMathematics.lib and object C:\Users\elror\ForsbergsSkola\Unity\PongClone\VectorMathematics\x64\Release\VectorMathematics.exp
+  Generating code
+  62 of 62 functions (100.0%) were compiled.
+    26 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  VectorMathematics.vcxproj -> C:\Users\elror\ForsbergsSkola\Unity\PongClone\VectorMathematics\x64\Release\VectorMathematics.dll
