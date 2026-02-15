@@ -27,7 +27,7 @@ extern "C" {
 
 	// Magnitud and distance
 	EXPORT float Vector3Magnitude(Vec3 v);						// |V|
-	EXPORT float Vector3MagnitudSquared(Vec3 v);				// |V|^2
+	EXPORT float Vector3MagnitudeSquared(Vec3 v);				// |V|^2
 	EXPORT float Vector3Distance(Vec3 a, Vec3 b);				// |A - B|
 	EXPORT float Vector3DistanceSquared(Vec3 a, Vec3 b);			// |A - B|^2
 

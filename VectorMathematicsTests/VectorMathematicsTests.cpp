@@ -72,7 +72,7 @@ void TestVector3() {
     assert(FloatEquals(mag, 5.0f));
     PrintFloat("Magnitude", mag);
 
-    float magSq = Vector3MagnitudSquared({ 3, 4, 0 });
+    float magSq = Vector3MagnitudeSquared({ 3, 4, 0 });
     assert(FloatEquals(magSq, 25.0f));
     PrintFloat("MagnitudeSquared", magSq);
 

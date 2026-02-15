@@ -24,7 +24,7 @@ namespace DefaultNamespace
         public static extern float Vector3Magnitude(Vec3 v);
 
         [DllImport(DLLName)]
-        public static extern float Vector3MagnitudSquared(Vec3 v);
+        public static extern float Vector3MagnitudeSquared(Vec3 v);
 
         [DllImport(DLLName)]
         public static extern float Vector3Distance(Vec3 a, Vec3 b);

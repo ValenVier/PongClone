@@ -38,7 +38,7 @@ extern "C"
 		return std::sqrt(v.x * v.x + v.y * v.y + v.z * v.z);
 	}
 
-	EXPORT float Vector3MagnitudSquared(Vec3 v) {
+	EXPORT float Vector3MagnitudeSquared(Vec3 v) {
 		return v.x * v.x + v.y * v.y + v.z * v.z;
 	}
 
@@ -94,7 +94,7 @@ extern "C"
 
 	EXPORT bool Vector3IsZero(Vec3 v, float epsilon)
 	{
-		return Vector3MagnitudSquared(v) < epsilon * epsilon;
+		return Vector3MagnitudeSquared(v) < epsilon * epsilon;
 	}
 
 	EXPORT Vec3 Vector3Slerp(Vec3 a, Vec3 b, float t)
@@ -139,7 +139,7 @@ extern "C"
 
 	EXPORT Vec3 Vector3VectorProjection(Vec3 a, Vec3 b)
 	{
-		float magBSq = Vector3MagnitudSquared(b);
+		float magBSq = Vector3MagnitudeSquared(b);
 		if (magBSq < 1e-6f)
 			return { 0.0f, 0.0f, 0.0f };
 
@@ -166,7 +166,7 @@ extern "C"
 	{
 		Vec3 dir = Vector3Subtraction(to, from);
 
-		if (Vector3MagnitudSquared(dir) < epsilon * epsilon)
+		if (Vector3MagnitudeSquared(dir) < epsilon * epsilon)
 			return { 0.0f, 0.0f, 0.0f };
 
 		return Vector3Normalize(dir);

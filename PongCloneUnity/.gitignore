@@ -12,6 +12,27 @@
 /[Uu]ser[Ss]ettings/
 *.log
 
+# Unity
+Library/
+Temp/
+Obj/
+Build/
+Logs/
+
+
+# IDE
+.vs/
+.idea/
+*.csproj
+*.sln
+*.user
+
+.vs/
+*.ipch
+*.VC.db
+*.opendb
+
+
 # By default unity supports Blender asset imports, *.blend1 blender files do not need to be commited to version control.
 *.blend1
 *.blend1.meta
