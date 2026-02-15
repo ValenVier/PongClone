@@ -5,57 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0a8aea6-ef26-4fed-a52f-b60847d1f48f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PongCloneUnity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PongCloneUnity/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/VectorMathematics.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/VectorMathematics.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PerfromanceTest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PerfromanceTest.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/VectorMath.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/VectorMath.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/VectorMathTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/VectorMathTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PaddleController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PaddleController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Icons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Icons/URP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Icons/URP.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Layout.wlt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Layout.wlt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Readme.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Readme.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Search.settings" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Search.settings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VectorMathematics/.vs/VectorMathematics/FileContentIndex/a3a45382-a0e2-4c04-9697-b27f8f5d0db3.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VectorMathematics/.vs/VectorMathematics/FileContentIndex/f8a8a78c-8747-4fa3-b9fa-2882f1df44e3.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VectorMathematics/.vs/VectorMathematics/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorMathematics/.vs/VectorMathematics/v17/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VectorMathematics/.vs/VectorMathematics/v17/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorMathematics/.vs/VectorMathematics/v17/Browse.VC.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VectorMathematics/.vs/VectorMathematics/v17/DocumentLayout.backup.json" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorMathematics/.vs/VectorMathematics/v17/DocumentLayout.backup.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VectorMathematics/.vs/VectorMathematics/v17/DocumentLayout.json" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorMathematics/.vs/VectorMathematics/v17/DocumentLayout.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VectorMathematics/.vs/VectorMathematics/v17/ipch/AutoPCH/da02978f51836761/VECTORMATHEMATICSTESTS.ipch" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorMathematics/.vs/VectorMathematics/v17/ipch/AutoPCH/da02978f51836761/VECTORMATHEMATICSTESTS.ipch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VectorMathematics/VectorMa.9fe150b4/x64/Debug/VectorMa.9fe150b4.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorMathematics/VectorMa.9fe150b4/x64/Debug/VectorMa.9fe150b4.tlog/CL.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VectorMathematics/VectorMa.9fe150b4/x64/Debug/VectorMa.9fe150b4.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorMathematics/VectorMa.9fe150b4/x64/Debug/VectorMa.9fe150b4.tlog/CL.write.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VectorMathematics/VectorMa.9fe150b4/x64/Debug/VectorMa.9fe150b4.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorMathematics/VectorMa.9fe150b4/x64/Debug/VectorMa.9fe150b4.tlog/link.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VectorMathematics/VectorMa.9fe150b4/x64/Debug/VectorMath.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorMathematics/VectorMa.9fe150b4/x64/Debug/VectorMath.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VectorMathematics/VectorMa.9fe150b4/x64/Debug/VectorMathematics.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorMathematics/VectorMa.9fe150b4/x64/Debug/VectorMathematics.ilk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VectorMathematics/VectorMa.9fe150b4/x64/Debug/VectorMathematics.log" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorMathematics/VectorMa.9fe150b4/x64/Debug/VectorMathematics.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VectorMathematics/VectorMa.9fe150b4/x64/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorMathematics/VectorMa.9fe150b4/x64/Debug/vc143.idb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VectorMathematics/VectorMa.9fe150b4/x64/Debug/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorMathematics/VectorMa.9fe150b4/x64/Debug/vc143.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VectorMathematics/VectorMa.9fe150b4/x64/Release/VectorMa.9fe150b4.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorMathematics/VectorMa.9fe150b4/x64/Release/VectorMa.9fe150b4.tlog/CL.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VectorMathematics/VectorMa.9fe150b4/x64/Release/VectorMa.9fe150b4.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorMathematics/VectorMa.9fe150b4/x64/Release/VectorMa.9fe150b4.tlog/CL.write.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VectorMathematics/VectorMa.9fe150b4/x64/Release/VectorMath.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorMathematics/VectorMa.9fe150b4/x64/Release/VectorMath.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VectorMathematics/VectorMa.9fe150b4/x64/Release/VectorMathematics.iobj" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorMathematics/VectorMa.9fe150b4/x64/Release/VectorMathematics.iobj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VectorMathematics/VectorMa.9fe150b4/x64/Release/VectorMathematics.ipdb" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorMathematics/VectorMa.9fe150b4/x64/Release/VectorMathematics.ipdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VectorMathematics/VectorMa.9fe150b4/x64/Release/VectorMathematics.log" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorMathematics/VectorMa.9fe150b4/x64/Release/VectorMathematics.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VectorMathematics/VectorMa.9fe150b4/x64/Release/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorMathematics/VectorMa.9fe150b4/x64/Release/vc143.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VectorMathematics/VectorMath.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorMathematics/VectorMath.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VectorMathematics/VectorMath.h" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorMathematics/VectorMath.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VectorMathematics/x64/Debug/VectorMathematics.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorMathematics/x64/Debug/VectorMathematics.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VectorMathematics/x64/Debug/VectorMathematics.exp" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorMathematics/x64/Debug/VectorMathematics.exp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VectorMathematics/x64/Debug/VectorMathematics.lib" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorMathematics/x64/Debug/VectorMathematics.lib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VectorMathematics/x64/Debug/VectorMathematics.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorMathematics/x64/Debug/VectorMathematics.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VectorMathematics/x64/Debug/VectorMathematicsTests.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorMathematics/x64/Debug/VectorMathematicsTests.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VectorMathematics/x64/Debug/VectorMathematicsTests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorMathematics/x64/Debug/VectorMathematicsTests.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VectorMathematics/x64/Release/VectorMathematics.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorMathematics/x64/Release/VectorMathematics.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VectorMathematics/x64/Release/VectorMathematics.exp" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorMathematics/x64/Release/VectorMathematics.exp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VectorMathematics/x64/Release/VectorMathematics.lib" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorMathematics/x64/Release/VectorMathematics.lib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VectorMathematics/x64/Release/VectorMathematics.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorMathematics/x64/Release/VectorMathematics.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VectorMathematicsTests/VectorMathematicsTests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorMathematicsTests/VectorMathematicsTests.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VectorMathematicsTests/x64/Debug/VectorMathematicsTests.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorMathematicsTests/x64/Debug/VectorMathematicsTests.ilk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VectorMathematicsTests/x64/Debug/VectorMathematicsTests.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorMathematicsTests/x64/Debug/VectorMathematicsTests.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VectorMathematicsTests/x64/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorMathematicsTests/x64/Debug/vc143.idb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VectorMathematicsTests/x64/Debug/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorMathematicsTests/x64/Debug/vc143.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +49,9 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/b62758b6b68d442db05ddd473aab2ee93e00/0e/dc478d10/02000004pdb1.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BallController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MainMenuController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScoringZone.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="McpProjectServerCommands">
     <commands />

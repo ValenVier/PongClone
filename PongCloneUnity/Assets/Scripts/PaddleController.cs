@@ -1,3 +1,5 @@
+using System;
+using DefaultNamespace;
 using UnityEngine;
 
 public class PaddleController : MonoBehaviour
@@ -10,6 +12,12 @@ public class PaddleController : MonoBehaviour
     public float topLimit = 3f;
     public float bottomLimit = -4.5f;
 
+    private void Awake()
+    {
+        Paddle paddle = GetComponent<Paddle>();
+        paddle.ResetPosition();
+    }
+
     void Update()
     {
         float move = 0f;
@@ -20,9 +28,9 @@ public class PaddleController : MonoBehaviour
         if (Input.GetKey(downKey))
             move = -1f;
 
-        Vector3 position = transform.position;
-
-        position.y += move * speed * Time.deltaTime;
+        Vec3 position = new Vec3(transform.position.x, transform.position.y, transform.position.z);
+        Vec3 delta = new Vec3(0f, move * speed * Time.deltaTime, 0f);
+        position = VectorMath.Vector3Add(position, delta);
 
         // limits
         //position.y = Mathf.Clamp(position.y, bottomLimit, topLimit);
@@ -30,6 +38,6 @@ public class PaddleController : MonoBehaviour
 
         position.y = Mathf.Clamp(position.y, bottomLimit + halfHeight, topLimit - halfHeight);
 
-        transform.position = position;
+        transform.position = new Vector3(position.x, position.y, position.z);
     }
 }
